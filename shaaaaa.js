@@ -139,7 +139,7 @@ var Shaaa = {
       }
 
       if (certsArray.length == 0)
-        callback({message: "No certs returned"});
+        callback({message: "No certs could be found."});
       else
         callback(null, certsArray);
     });
